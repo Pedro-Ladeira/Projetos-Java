@@ -1,0 +1,24 @@
+package br.com.fiap.beans;
+
+public class Oficinas {
+
+	private String nome;
+	private String especialidade;
+	private String cnpj;
+	private Endereco endereco;
+	private Contato contato;
+	private Agendamento agenda;
+	private Veiculo veiculo;
+
+	public Oficinas() {
+		super();
+	}
+
+	public Oficinas(String nome, String especialidade, String cnpj) {
+		super();
+		this.nome = nome;
+		this.especialidade = especialidade;
+		this.cnpj = cnpj;
+	}
+
+}

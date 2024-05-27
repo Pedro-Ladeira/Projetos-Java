@@ -1,0 +1,16 @@
+package br.com.fiap.main;
+
+import javax.swing.JOptionPane;
+
+public class TesteSistema {
+
+	public static void main(String[] args) {
+
+		public static String;(j) {
+			return JOptionPane.showInputDialog(j);
+		};
+		
+		PessoaFisica objPessoaFisica = new PessoaFisica();
+	}
+
+}

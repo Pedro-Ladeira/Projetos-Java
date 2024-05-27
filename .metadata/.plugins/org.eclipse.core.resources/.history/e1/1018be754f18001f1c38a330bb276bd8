@@ -1,0 +1,103 @@
+package br.com.fiap.beans;
+
+public abstract class Cliente {
+
+	private int codigo;
+	private String nome;
+	private String dataNascimento;
+	private String cpf;
+	private Contato contato;
+	private Endereco endereco;
+	private Usuario login;
+	private Agendamento agenda;
+	private Pagamento pagamento;
+	private Veiculo veiculo;
+
+	public Cliente() {
+		super();
+	}
+
+	public Cliente(int codigo, String nome, String dataNascimento, String cpf) {
+		super();
+		this.codigo = codigo;
+		this.nome = nome;
+		this.dataNascimento = dataNascimento;
+		this.cpf = cpf;
+	}
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(String dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public Contato getContato() {
+		return contato;
+	}
+
+	public void setContato(Contato contato) {
+		this.contato = contato;
+	}
+
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+
+
+	public Agendamento getAgenda() {
+		return agenda;
+	}
+
+	public void setAgenda(Agendamento agenda) {
+		this.agenda = agenda;
+	}
+
+	public Pagamento getPagamento() {
+		return pagamento;
+	}
+
+	public void setPagamento(Pagamento pagamento) {
+		this.pagamento = pagamento;
+	}
+
+	public Veiculo getVeiculo() {
+		return veiculo;
+	}
+
+	public void setVeiculo(Veiculo veiculo) {
+		this.veiculo = veiculo;
+	}
+	
+	
+
+}

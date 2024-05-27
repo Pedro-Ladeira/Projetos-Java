@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class Carro {
+	
+	private String carroceria;
+	private String transmissao;
+	
+
+}
