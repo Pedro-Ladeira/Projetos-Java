@@ -1,2 +1,5 @@
-#Tue Apr 09 21:38:28 BRT 2024
+#Mon Aug 12 20:39:03 BRT 2024
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.sdk.Eclipse.master=true
 __DEFAULT__=true

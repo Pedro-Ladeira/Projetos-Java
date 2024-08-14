@@ -1,9 +1,0 @@
-package br.com.fiap.beans;
-
-public class PessoaJuridica extends Pessoa {
-	
-	private String razaoSocial;
-	private String cnpj;
-	
-
-}
